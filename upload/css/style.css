@@ -94,7 +94,7 @@ p a:hover {
 }
 #header ul#navigation li a:hover,
 #header ul#navigation li.current ul li a:hover {
-	color: #d3a3ff;
+	color: #315f52;
 }
 #header ul#navigation li.current a {
 	color: #99fa99;
