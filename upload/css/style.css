@@ -1,4 +1,10 @@
 /* Template by freewebsitetemplates.com */
+.center {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
 body {
 	background: #ffffff;
 	color: #315f52;
