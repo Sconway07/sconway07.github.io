@@ -131,6 +131,13 @@ p a:hover {
 	overflow: hidden;
 	padding: 5px 40px 46px;
 }
+#body > h1 {
+	color: #b6d8cf;
+	display: block;
+	font-family: 'nixie_oneregular';
+	font-size: 21px;
+	text-transform: uppercase;
+}
 #body > h2 {
 	color: #21a51e;
 	font-family: 'nixie_oneregular';
