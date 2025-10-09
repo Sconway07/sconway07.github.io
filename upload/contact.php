@@ -38,27 +38,21 @@
 	</div>
 	<div id="body">
 		<h2>Contact</h2>
-		<form action="sendform.php" method="post">
-			<h3>Inquiries</h3>
-			<label for="name">
-				<span>Name</span>
-				<input type="text" id="name" placeholder="Full Name">
-			</label>
-			<label for="email">
-				<span>Email</span>
-				<input type="text" id="email" placeholder="you@email.com">
-			</label>
-			<label for="subject">
-				<span>Subject</span>
-				<input type="text" id="subject" placeholder="Subject">
-			</label>
-			<label for="message">
-				<span>Message</span>
-				<textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
-			</label>
-			<input type="submit" id="send" value="Send">
-			<button type="submit" id="submit" value="Submit">
-		</form>
+	<form
+  		action="https://formspree.io/f/xwpnqrgb"
+  		method="POST"
+	>
+  		<label>
+    		Your email:
+    		<input type="email" name="email">
+  		</label>
+  		<label>
+    		Your message:
+    		<textarea name="message"></textarea>
+  		</label>
+  			<!-- your other form fields go here -->
+  		<button type="submit">Send</button>
+	</form>
 	</div>
 	<div id="footer">
 		<div>
